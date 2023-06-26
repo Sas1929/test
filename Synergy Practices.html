@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synergy Practices</title>
+  <style>
+    /* Main container styles */
+    .container {
+      display: grid;
+      margin: 100%;
+      padding: 100px;
+      grid-template-columns: repeat(8, auto);
+      grid-template-rows: minmax(8px);
+      grid-auto-columns: auto;
+      grid-gap: 3%;
+      border-radius: 20px;
+      justify-items: center;
+      align-items: center;
+      background-color: rgb(145, 176, 204);
+    }
+
+    /* Navigation links styles */
+    .nav-link {
+      padding: 0.7rem;
+      width: 110px;
+      height: 160px;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      transition: all 0.5s ease-in-out;
+      box-shadow: 0px 2px 4px 0px #ddd;
+    }
+    .nav-link img {
+      width: 110px;
+      height: 110px;
+      align-items: center;
+      object-fit: contain;
+    }
+    .nav-link span {
+      display: block;
+      text-align: center;
+    }
+    .nav-link:hover {
+      transform: scale(1.5);
+      box-shadow: 0 0 10px rgb(1, 136, 21);
+    }
+    /* Header styles */
+    header {
+      background-color: #0069aa;
+      color: rgb(255, 255, 255);
+      padding: 0.8%;
+      text-align: center;
+    }
+    /* Main heading styles */
+    .title {
+      font-size: 2.4rem;
+      margin: auto;
+      font-weight: bold;
+      font-style: oblique;
+    }
+
+    /* Media Queries */
+    @media (max-width: 600px) {
+      /* styles for devices with screen width less than 600px */
+      .container {
+        grid-template-columns: repeat(2, auto);
+        margin: auto;
+        grid-gap: 50px, auto;
+      }
+      .nav-link {
+        font-size: 1rem;
+      }
+    }
+    @media (min-width: 600px) {
+      /* styles for devices with screen width greater than 600px */
+      .container {
+        grid-template-columns: repeat(8, auto);
+        grid-template-rows: minmax(8px);
+        grid-auto-columns: auto;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        margin: 3%;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+        margin-left: 1%;
+        grid-gap: auto;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="title">Best Practices</h1>
+  </header>
+  <div class="container">
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/ETvoiY26Bq5CgfZlmHoR6ZEBnQpuw3x6NfIJ4yULjqAFsg?e=xirnSJ" class="nav-link">
+      <img src="Images/AHOY_Manning.png" alt="AHOY"
+      <span>AHOY Manning</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EWWe5gpQMjVGnHtSbViL3W0BOU18TgXlDSijBrzgJTUiwA?e=Rk4WDa" class="nav-link">
+      <img src="Images/BLUE GEM.jpg" alt="Blue Gem"
+      <span>Blue Gem</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:b:/g/personal/suryaprakash_k_synergyship_com/EWbeQYri_wJAhUK115gW0oMBN7iCvf_4gOAD4-6Z3pI9XQ?e=aTS0TJ" class="nav-link">
+      <img src="Images/CODE OF CONDUCT.jpg" alt="Code of Conduct"
+      <span>Code of Conduct</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EUO6EQE3dSJIgmTJwxwxTbgBayMb1GAjYr2vjto3LdkAzw?e=pHPSzX" class="nav-link">
+      <img src="Images/CREW CONNECT.jpg" alt="Crew Connect"
+      <span>Crew Connect</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EYlJ-AXqnjtEqUSj6gr7P6MBN8WSMbAOCCmG9uXWpk8uag?e=nj7CQm" class="nav-link">
+      <img src="Images/INCIDENT LEARNING.jpg" alt="Incident Learning"
+      <span>Incident Learning</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EWWoFT7XIF5ElD7bB2Hjk7YBlhaX4Ng5hsiP7OkJfgi0Eg?e=HAZZtQ" class="nav-link">
+      <img src="Images/LARP.jpg" alt="LARP"
+      <span>LARP</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EaQOSnq5OotMt-x3xiuTOjYBOLxZ2R7KhOYrdM4pGAFZDw?e=5x4N0g" class="nav-link">
+      <img src="Images/POLICY PROCEDURE.jpg" alt="Local Procedures"
+      <span>Local Procedures</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:b:/g/personal/suryaprakash_k_synergyship_com/EbXzx9C7TIZPn1NI7aSyz5oBPyNOZ1QwXZ-aJ73fFU8GaQ?e=MsnQzM" class="nav-link">
+      <img src="Images/PILBARA PORT AUTHORITY.jpg" alt="Pilbara Port Auth Handbook"
+      <span>Pilbara Port Auth Handbook</span>
+    </a>
+      <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EWJk0SKuOmZOkCwjJRX_z38B4v36XEAHsKRnEbqRVNS0LA?e=VFVNZ0" class="nav-link">
+      <img src="Images/AHOY_QHSE.png" alt="AHOY"
+      <span>AHOY QHSE</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EcUl8iK__oBBnYGX2pKVN-cBmEM2MKB7GYVlO4qkWcUrEA?e=MaoGvY" class="nav-link">
+      <img src="Images/SAFETY DAY.jpg" alt="Safety Day"
+      <span>Safety Day</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:b:/g/personal/suryaprakash_k_synergyship_com/ETZ2_sXU5SREk5ZLVVDb3UEBHVMWhYJx5yKmcitlKiXTNw?e=HYIq2Z" class="nav-link">
+      <img src="Images/SAFETY HANDBOOK.jpg" alt="Safety Handbook"
+      <span>Safety Handbook</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EV7umepCIZBGrIJOI4-Yu2UBTFdqlqEwkbAkmVVPIRiasw?e=NaDNbT" class="nav-link">
+      <img src="Images/SEABLY.jpg" alt="Seably"
+      <span>Seably</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EeXwqQ7lFUhCqDi5NgNKkf0BDuLYPXabXnVDefceS6CQ5Q?e=CRzwoW" class="nav-link">
+      <img src="Images/Signage.jpg" alt="Sinage Kit"
+      <span>Sinage Kit</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/ESU0bZgmub9Nu5XZGPpj1V0BBIEzjXhmb4RT7nuI4lh0ow?e=AJojoS" class="nav-link">
+      <img src="Images/SMARTSHIP.jpg" alt="Smartship"
+      <span>Smartship</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/Ec6SScEuKe9Fm6tmWYilY2QBIHv0B5FW48jWB-7Z-JZ3ag?e=CJT1ei" class="nav-link">
+      <img src="Images/SMART VOYAGER.jpg" alt="Smart Voyager"
+      <span>Smart Voyager</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EaGcQcES969JnwGi-Wj_stsBT6KSY_R3lwGrjl0f8nHklg?e=jpbwCg" class="nav-link">
+      <img src="Images/WE TEAM.jpg" alt="We Team"
+      <span>We Team</span>
+    </a>
+  </div>
+</body>
+  <header>
+    <h1 class="title">Upcoming</h1>
+  </header>
+  <div class="container">
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EUv2YR-cJidMgfMdJyqEYhcBYOyO7Jn6wu3olvlEwmeijA?e=AFLqRa" class="nav-link">
+      <img src="Images/MANNING APP CENTRAL.jpg" alt="Manning App Central"
+      <span>Manning App Central</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/ER6S9LSgFWhDoycwyKEe7MYBja4YrAG2VmDoz-VWMWIwmg?e=PO0dnu" class="nav-link">
+      <img src="Images/OFFICE WEATHER MONITORING.jpg" alt="Office Weather Monitoring"
+      <span>Office Weather Monitoring</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EW8x9BMk5-lIkVZPO6mMlgABgxhaETWsSXsY_GBWgsfNBw?e=xryHWp" class="nav-link">
+      <img src="Images/PAPERLESS SHIP.jpg" alt="Paperless Ships"
+      <span>Paperless Ships</span>
+    </a>
+    <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EV8uUrCINb9PiPYk93dvj6cBD_kIlpVUiEJfWjx6fPwdsA?e=eIaCPX" class="nav-link">
+      <img src="Images/SHIPALM V3.jpg" alt="Shippalm V3 Features"
+      <span>Shippalm V3 Features</span>
+    </a>
+        <a href="https://synergycloud-my.sharepoint.com/:p:/g/personal/suryaprakash_k_synergyship_com/EQoza-9RcGhLjZPyQS3UmskBFtDlhjpfgzBMX3GIIXZnUA?e=92g2lI" class="nav-link">
+      <img src="Images/I BULK.jpg" alt="I-Bulk"
+      <span>I-Bulk</span>
+    </a>
+  </div>
+</body>
+</html>
